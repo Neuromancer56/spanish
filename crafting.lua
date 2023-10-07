@@ -2,17 +2,17 @@
 minetest.register_craft({
 	output = "default:apple",
 	recipe = {
-		{"phonics:a", "phonics:p", "phonics:0p"},
-		{"phonics:l", "phonics:0e",""},
-		{"","" ,""},
+		{"spanish:m", "spanish:a", "spanish:n"},
+		{"spanish:z", "spanish:a","spanish:n"},
+		{"spanish:a","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "default:axe_steel",
 	recipe = {
-		{"phonics:a", "phonics:x", "phonics:0e"},
-		{"", "",""},
+		{"spanish:h", "spanish:a", "spanish:ch"},
+		{"spanish:a", "",""},
 		{"","" ,""},
 	}
 })
@@ -20,8 +20,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "beds:bed_bottom 4",
 	recipe = {
-		{"phonics:b", "phonics:e", "phonics:d"},
-		{"", "",""},
+		{"spanish:c", "spanish:a", "spanish:m"},
+		{"spanish:a", "",""},
 		{"","" ,""},
 	}
 })
@@ -29,17 +29,17 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "beds:fancy_bed_bottom 4",
 	recipe = {
-		{"phonics:f","phonics:a" ,"phonics:n"},
-		{"phonics:s", "phonics:_e",""},
-		{"phonics:b", "phonics:e", "phonics:d"},
+		{"spanish:c", "spanish:a", "spanish:m"},
+		{"spanish:a", "spanish:e","spanish:l"},
+		{"spanish:e","spanish:g" ,"spanish:a"},
 	}
 })
 
 minetest.register_craft({
-	output = "boats:boat 2",
+	output = "boats:boat 3",
 	recipe = {
-		{"phonics:b", "phonics:_o", "phonics:0a"},
-		{"phonics:t", "",""},
+		{"spanish:b", "spanish:o", "spanish:t"},
+		{"spanish:e", "",""},
 		{"","" ,""},
 	}
 })
@@ -47,8 +47,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "bucket:bucket_empty 2",
 	recipe = {
-		{"phonics:b", "phonics:u", "phonics:c"},
-		{"phonics:0k", "phonics:e","phonics:t"},
+		{"spanish:b", "spanish:a", "spanish:l"},
+		{"spanish:d", "spanish:e",""},
 		{"","" ,""},
 	}
 })
@@ -56,8 +56,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "carts:cart 3",
 	recipe = {
-		{"phonics:c", "phonics:ar", "phonics:t"},
-		{"", "",""},
+		{"spanish:c", "spanish:a", "spanish:rr"},
+		{"spanish:o", "",""},
 		{"","" ,""},
 	}
 })
@@ -65,8 +65,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:chest 3",
 	recipe = {
-		{"phonics:ch", "phonics:e", "phonics:s"},
-		{"phonics:t", "",""},
+		{"spanish:c", "spanish:o", "spanish:f"},
+		{"spanish:r", "spanish:e",""},
 		{"","" ,""},
 	}
 })
@@ -74,8 +74,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:coal_lump 10",
 	recipe = {
-		{"phonics:c", "phonics:_o", "phonics:0a"},
-		{"phonics:l", "",""},
+		{"spanish:c", "spanish:a", "spanish:r"},
+		{"spanish:b", "spanish:o","spanish:n"},
 		{"","" ,""},
 	}
 })
@@ -83,17 +83,17 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:dirt 49",
 	recipe = {
-		{"phonics:d", "phonics:er", "phonics:t"},
-		{"", "",""},
-		{"","" ,""},
+		{"spanish:s", "spanish:u", "spanish:c"},
+		{"spanish:i", "spanish:e","spanish:d"},
+		{"spanish:a","spanish:d" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "doors:door_wood 15",
 	recipe = {
-		{"phonics:d", "phonics:_o", "phonics:0o"},
-		{"phonics:r", "",""},
+		{"spanish:p", "spanish:u", "spanish:e"},
+		{"spanish:r", "spanish:t","spanish:a"},
 		{"","" ,""},
 	}
 })
@@ -101,26 +101,26 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "doors:door_steel 15",
 	recipe = {
-		{"phonics:s", "phonics:t", "phonics:_e"},
-		{"phonics:0e", "phonics:l", "phonics:d"},
-		{"phonics:_o", "phonics:0o","phonics:r"},
+		{"spanish:p", "spanish:u", "spanish:e"},
+		{"spanish:r", "spanish:t","spanish:a"},
+		{"spanish:a","spanish:c" ,"spanish:e"},
 	}
 })
 
 minetest.register_craft({
 	output = "doors:door_glass 15",
 	recipe = {
-		{"phonics:g", "phonics:l", "phonics:a"},
-		{"phonics:s", "phonics:0s", "phonics:d"},
-		{"phonics:_o", "phonics:0o","phonics:r"},
+		{"spanish:p", "spanish:u", "spanish:e"},
+		{"spanish:r", "spanish:t","spanish:a"},
+		{"spanish:c","spanish:r" ,"spanish:i"},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:black 10",
 	recipe = {
-		{"phonics:b", "phonics:l", "phonics:a"},
-		{"phonics:c", "phonics:0k",""},
+		{"spanish:n", "spanish:e", "spanish:g"},
+		{"spanish:r", "spanish:o",""},
 		{"","" ,""},
 	}
 })
@@ -128,8 +128,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:blue 10",
 	recipe = {
-		{"phonics:b", "phonics:l", "phonics:_oo"},
-		{"", "",""},
+		{"spanish:a", "spanish:z", "spanish:u"},
+		{"spanish:l", "",""},
 		{"","" ,""},
 	}
 })
@@ -137,8 +137,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:brown 10",
 	recipe = {
-		{"phonics:b", "phonics:r", "phonics:ou"},
-		{"phonics:n", "",""},
+		{"spanish:m", "spanish:a", "spanish:rr"},
+		{"spanish:o", "spanish:n",""},
 		{"","" ,""},
 	}
 })
@@ -146,8 +146,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:cyan 10",
 	recipe = {
-		{"phonics:s", "phonics:_i", "phonics:a"},
-		{"phonics:n", "",""},
+		{"spanish:c", "spanish:i", "spanish:a"},
+		{"spanish:n", "",""},
 		{"","" ,""},
 	}
 })
@@ -155,26 +155,26 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:dark_green 10",
 	recipe = {
-		{"phonics:d", "phonics:ar", "phonics:k"},
-		{"", "phonics:g","phonics:r"},
-		{"phonics:_e","phonics:0e" ,"phonics:n"},
+		{"spanish:v", "spanish:e", "spanish:r"},
+		{"spanish:d", "spanish:e","spanish:o"},
+		{"spanish:s","spanish:k" ,"spanish:u"},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:dark_grey 10",
 	recipe = {
-		{"phonics:d", "phonics:ar", "phonics:k"},
-		{"", "phonics:g","phonics:r"},
-		{"phonics:_a","phonics:0y" ,""},
+		{"spanish:g", "spanish:r", "spanish:i"},
+		{"spanish:s", "spanish:o","spanish:s"},
+		{"spanish:k","spanish:u" ,"spanish:r"},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:green 10",
 	recipe = {
-		{"phonics:g", "phonics:r", "phonics:_e"},
-		{"phonics:0e", "phonics:n",""},
+		{"spanish:v", "spanish:e", "spanish:r"},
+		{"spanish:d", "spanish:e",""},
 		{"","" ,""},
 	}
 })
@@ -182,8 +182,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:grey 10",
 	recipe = {
-		{"phonics:g", "phonics:r", "phonics:_a"},
-		{"phonics:0y", "",""},
+		{"spanish:g", "spanish:r", "spanish:i"},
+		{"spanish:s", "",""},
 		{"","" ,""},
 	}
 })
@@ -191,26 +191,26 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:magenta 10",
 	recipe = {
-		{"phonics:m", "phonics:u", "phonics:j"},
-		{"phonics:e", "phonics:n","phonics:t"},
-		{"phonics:u","" ,""},
+		{"spanish:m", "spanish:a", "spanish:g"},
+		{"spanish:e", "spanish:n","spanish:t"},
+		{"spanish:a","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:orange 10",
 	recipe = {
-		{"phonics:_o", "phonics:r", "phonics:a"},
-		{"phonics:n", "phonics:j","phonics:0e"},
-		{"","" ,""},
+		{"spanish:n", "spanish:a", "spanish:r"},
+		{"spanish:a", "spanish:n","spanish:j"},
+		{"spanish:a","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:pink 10",
 	recipe = {
-		{"phonics:p", "phonics:i", "phonics:n"},
-		{"phonics:k", "",""},
+		{"spanish:r", "spanish:o", "spanish:s"},
+		{"spanish:a", "",""},
 		{"","" ,""},
 	}
 })
@@ -218,8 +218,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:red 10",
 	recipe = {
-		{"phonics:r", "phonics:e", "phonics:d"},
-		{"", "",""},
+		{"spanish:r", "spanish:o", "spanish:j"},
+		{"spanish:o", "",""},
 		{"","" ,""},
 	}
 })
@@ -227,17 +227,17 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:violet 10",
 	recipe = {
-		{"phonics:v", "phonics:_i", "phonics:_o"},
-		{"phonics:l", "phonics:e","phonics:t"},
-		{"","" ,""},
+		{"spanish:v", "spanish:i", "spanish:o"},
+		{"spanish:l", "spanish:e","spanish:t"},
+		{"spanish:a","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:white 10",
 	recipe = {
-		{"phonics:w", "phonics:0h", "phonics:_i"},
-		{"phonics:t", "phonics:0e",""},
+		{"spanish:b", "spanish:l", "spanish:a"},
+		{"spanish:n", "spanish:c","spanish:o"},
 		{"","" ,""},
 	}
 })
@@ -245,9 +245,9 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:yellow 10",
 	recipe = {
-		{"phonics:y", "phonics:e", "phonics:l"},
-		{"phonics:0l", "phonics:_o","phonics:0w"},
-		{"","" ,""},
+		{"spanish:a", "spanish:m", "spanish:a"},
+		{"spanish:r", "spanish:i","spanish:ll"},
+		{"spanish:o","" ,""},
 	}
 })
 
@@ -255,8 +255,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:fence_wood 33",
 	recipe = {
-		{"phonics:f", "phonics:e", "phonics:n"},
-		{"phonics:s", "phonics:0e",""},
+		{"spanish:c", "spanish:e", "spanish:r"},
+		{"spanish:k", "spanish:a",""},
 		{"","" ,""},
 	}
 })
@@ -264,8 +264,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "doors:gate_wood 10",
 	recipe = {
-		{"phonics:g", "phonics:_a", "phonics:t"},
-		{"phonics:0e", "",""},
+		{"spanish:r", "spanish:e", "spanish:j"},
+		{"spanish:a", "",""},
 		{"","" ,""},
 	}
 })
@@ -273,26 +273,26 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:glass 33",
 	recipe = {
-		{"phonics:g", "phonics:l", "phonics:a"},
-		{"phonics:s", "phonics:0s",""},
-		{"","" ,""},
+		{"spanish:c", "spanish:r", "spanish:i"},
+		{"spanish:s", "spanish:t","spanish:a"},
+		{"spanish:l","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "default:ladder 9",
 	recipe = {
-		{"phonics:l", "phonics:a", "phonics:d"},
-		{"phonics:0d", "phonics:er",""},
-		{"","" ,""},
+		{"spanish:e", "spanish:s", "spanish:k"},
+		{"spanish:a", "spanish:l","spanish:e"},
+		{"spanish:r","spanish:a" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "default:pick_steel",
 	recipe = {
-		{"phonics:p", "phonics:i", "phonics:c"},
-		{"phonics:0k", "",""},
+		{"spanish:p", "spanish:i", "spanish:k"},
+		{"spanish:o", "",""},
 		{"","" ,""},
 	}
 })
@@ -301,8 +301,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:pine_tree 10",
 	recipe = {
-		{"phonics:p", "phonics:_i", "phonics:n"},
-		{"phonics:0e", "",""},
+		{"spanish:p", "spanish:i", "spanish:_n"},
+		{"spanish:o", "",""},
 		{"","" ,""},
 	}
 })
@@ -310,8 +310,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "carts:rail 20",
 	recipe = {
-		{"phonics:r", "phonics:_a", "phonics:0i"},
-		{"phonics:l", "",""},
+		{"spanish:c", "spanish:a", "spanish:rr"},
+		{"spanish:i", "spanish:l",""},
 		{"","" ,""},
 	}
 })
@@ -319,8 +319,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:shovel_steel",
 	recipe = {
-		{"phonics:sh", "phonics:u", "phonics:v"},
-		{"phonics:0e", "phonics:l",""},
+		{"spanish:p", "spanish:a", "spanish:l"},
+		{"spanish:a", "",""},
 		{"","" ,""},
 	}
 })
@@ -328,8 +328,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:stick 49",
 	recipe = {
-		{"phonics:s", "phonics:t", "phonics:i"},
-		{"phonics:c", "phonics:0k",""},
+		{"spanish:p", "spanish:a", "spanish:l"},
+		{"spanish:o", "",""},
 		{"","" ,""},
 	}
 })
@@ -337,8 +337,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:stone 49",
 	recipe = {
-		{"phonics:s", "phonics:t", "phonics:_o"},
-		{"phonics:n", "phonics:0e",""},
+		{"spanish:p", "spanish:i", "spanish:e"},
+		{"spanish:d", "spanish:r","spanish:a"},
 		{"","" ,""},
 	}
 })
@@ -346,8 +346,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:sword_steel",
 	recipe = {
-		{"phonics:s", "phonics:0w", "phonics:_o"},
-		{"phonics:r", "phonics:d",""},
+		{"spanish:e", "spanish:s", "spanish:p"},
+		{"spanish:a", "spanish:d","spanish:a"},
 		{"","" ,""},
 	}
 })
@@ -355,8 +355,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:apple_tree 10",
 	recipe = {
-		{"phonics:t", "phonics:r", "phonics:_e"},
-		{"phonics:0e", "",""},
+		{"spanish:a", "spanish:r", "spanish:b"},
+		{"spanish:o", "spanish:l",""},
 		{"","" ,""},
 	}
 })
@@ -364,17 +364,17 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:torch 20",
 	recipe = {
-		{"phonics:t", "phonics:_o", "phonics:r"},
-		{"phonics:ch", "",""},
-		{"","" ,""},
+		{"spanish:a", "spanish:n", "spanish:t"},
+		{"spanish:o", "spanish:r","spanish:ch"},
+		{"spanish:a","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "wool:white 30",
 	recipe = {
-		{"phonics:w", "phonics:oo", "phonics:l"},
-		{"", "",""},
+		{"spanish:l", "spanish:a", "spanish:n"},
+		{"spanish:a", "",""},
 		{"","" ,""},
 	}
 })
