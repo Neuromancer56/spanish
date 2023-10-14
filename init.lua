@@ -646,7 +646,7 @@ function buildrow(hstart, hend, y, haxis, haxis_fixed, nodename)
 	until hpos> hmax
 end
 
-minetest.register_chatcommand("w", {
+minetest.register_chatcommand("escriba", {
 	params = "<message>",
 	description = "Write phonics message on a page",
 	privs = {shout=true},
