@@ -1,4 +1,4 @@
-------------Crafting
+ ------------Crafting
 minetest.register_craft({
 	output = "default:apple",
 	recipe = {
@@ -29,9 +29,9 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "beds:fancy_bed_bottom 4",
 	recipe = {
-		{"spanish:c", "spanish:a", "spanish:m"},
-		{"spanish:a", "spanish:e","spanish:l"},
+		{"beds:bed_bottom", "spanish:e","spanish:l"},
 		{"spanish:e","spanish:g" ,"spanish:a"},
+		{"spanish:n", "spanish:t", "spanish:e"},
 	}
 })
 
@@ -101,18 +101,18 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "doors:door_steel 15",
 	recipe = {
-		{"spanish:p", "spanish:u", "spanish:e"},
-		{"spanish:r", "spanish:t","spanish:a"},
-		{"spanish:a","spanish:c" ,"spanish:e"},
+		{"doors:door_wood", "spanish:d", "spanish:e"},
+		{"","spanish:a" ,"spanish:c"},
+		{"spanish:e", "spanish:r","spanish:o"},
 	}
 })
 
 minetest.register_craft({
 	output = "doors:door_glass 15",
 	recipe = {
-		{"spanish:p", "spanish:u", "spanish:e"},
-		{"spanish:r", "spanish:t","spanish:a"},
-		{"spanish:c","spanish:r" ,"spanish:i"},
+		{"doors:door_wood", "spanish:c", "spanish:r"},
+		{"spanish:i","spanish:s" ,"spanish:t"},
+		{"spanish:a","spanish:l" ,""},
 	}
 })
 
@@ -155,18 +155,18 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:dark_green 10",
 	recipe = {
-		{"spanish:v", "spanish:e", "spanish:r"},
-		{"spanish:d", "spanish:e","spanish:o"},
-		{"spanish:s","spanish:k" ,"spanish:u"},
+		{"dye:green", "spanish:o", "spanish:s"},
+		{"spanish:c", "spanish:u","spanish:r"},
+		{"spanish:o","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:dark_grey 10",
 	recipe = {
-		{"spanish:g", "spanish:r", "spanish:i"},
-		{"spanish:s", "spanish:o","spanish:s"},
-		{"spanish:k","spanish:u" ,"spanish:r"},
+		{"dye:grey", "spanish:o", "spanish:s"},
+		{"spanish:c", "spanish:u","spanish:r"},
+		{"spanish:o","" ,""},
 	}
 })
 

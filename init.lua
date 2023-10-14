@@ -13,7 +13,7 @@ phonics = {
 	e={name="e", length=.5, gain=1, is_silent=0},	
 	f={name="f", length=.7, gain=1, is_silent=0},
 	g={name="g", length=.14, gain=1, is_silent=0},
-	h={name="h", length=.0, gain=0, is_silent=1},
+	h={name="h", length=.0, gain=0, is_silent=0},
 	i={name="i", length=.64, gain=1, is_silent=1},  --  silent for viente?
 	j={name="j", length=.48, gain=1, is_silent=0},	
 	k={name="k", length=.3, gain=1, is_silent=0},	
